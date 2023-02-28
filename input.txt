@@ -1,5 +1,5 @@
 totafsdfsf #k fdsfsdf
-test
+TeST
 totafsd#k fdsfsdf fdfjs
 test2
 jfldjfldk # wynik
@@ -15,6 +15,6 @@ test7
 fjdlsjfkl #k oooolll
 test8
 rwrewrew #k fjdslkjfdl
-test9
+teST9
 fjdlskjfldjflj #k rewrewrew
 test10
