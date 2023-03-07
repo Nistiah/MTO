@@ -5,14 +5,14 @@ import sys
 def my_printf(format_string,param):
     length = len(format_string)
     i = 0
-    while(i<lenght):
-    	if(format_string[i] == '#' and format_string[i+1]=='.' and format_string[i+2].isdigit and format_string[i+3]=='k':
-    	    lenght2 = int(format_string[i+2];
+    while(i<length):
+    	if(format_string[i] == '#' and format_string[i+1]=='.' and format_string[i+2].isdigit and format_string[i+3]=='k'):
+    	    lenght = int(format_string[i+2])
     	    param = param.swapcase()
-    	    param=param.rjust(length2, ' ')
-    	    print(param, end="")
+    	    ##param=param.rjust(lenght, ' ')
+    	    print(param[0:int(format_string[i+2])], end="")
     	    i=i+4
-    	elif format_string[i] == '#' and format_string[i+1] == 'k'
+    	elif (format_string[i] == '#' and format_string[i+1] == 'k'):
     	    print(param.swapcase(), end="")
     	    i=i+2
     	else:
