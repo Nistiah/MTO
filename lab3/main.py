@@ -5,13 +5,15 @@ import sys
 import re
 
 def my_printf(format_string,param):
-    REGEX = r'#(\d+)?(\.)?(\d+)?k '
+    REGEX = r'#(\d+)?(\.)?(\d+)?k'
     shouldDo=True
     param = param.swapcase()
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#':
                 result = re.search(REGEX, format_string[idx:])
+                if format_string[idx+1].isspace():
+            	    break
                 firstdigit = result.group(1)
                 dot = result.group(2)
                 seconddigit = result.group(3)
