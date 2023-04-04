@@ -7,7 +7,8 @@ import re
 def my_printf(format_string,param):
     REGEX = r'#(\d+)?g'
     shouldDo=True
-    param = param.swapcase()
+
+
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#':
@@ -35,7 +36,7 @@ def my_printf(format_string,param):
             else:
                 print(format_string[idx],end="")
         else:
-            if format_string[idx] == 'k':
+            if format_string[idx] == 'g':
                 shouldDo=True
     print("")
 
