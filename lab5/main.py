@@ -10,25 +10,32 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#':
                 result = re.search(REGEX, format_string[idx:])
-                firstdigit = result.group(1)
-                if firstdigit and param.isnumeric():
-                    firstdigitInt = int(firstdigit)
+                first = result.group(1)
+                if first and param.isnumeric():
+                    firstInt = int(first)
                     nowa_liczba = ""
                     for cyfra in param:
                         if cyfra == "0":
                             nowa_liczba += "9"
                         else:
                             nowa_liczba += str(int(cyfra)-1)
-                    print(f'{nowa_liczba:>{firstdigitInt}}',end="")
-                elif firstdigit and not param.isnumeric():
-                    firstdigitInt = int(firstdigit)
-                    print(f'{param:>{firstdigitInt}}',end="")
+                    print(f'{nowa_liczba:>{firstInt}}',end="")
+                elif first and not param.isnumeric():
+                    firstInt = int(first)
+                    print(f'{param:>{firstInt}}',end="")
+                elif first and format_string[idx+1]  == 'g':
+                    nowa_liczba = ""
+                    for cyfra in param:
+                        if cyfra == "0":
+                            nowa_liczba += "9"
+                        else:
+                            nowa_liczba += str(int(cyfra)-1)
+                    print(f'{nowa_liczba:>{firstInt}}',end="")
                 else:
                     break
                 shouldDo=False
             else:
                 print(format_string[idx],end="")
-                print("   kuuursko   ")
         else:
             if format_string[idx] == 'g':
                 shouldDo=True
