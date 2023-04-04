@@ -10,8 +10,10 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#':
                 result = re.search(REGEX, format_string[idx:])
+                format = result.group()
+                num = format[1:-1]
                 firstdigit = result.group(1)
-                if firstdigit and param.isdigit():
+                if firstdigit and num.isnumeric():
                     firstdigitInt = int(firstdigit)
                     nowa_liczba = ""
                     for cyfra in param:
@@ -20,7 +22,7 @@ def my_printf(format_string,param):
                         else:
                             nowa_liczba += str(int(cyfra)-1)
                     print(f'{nowa_liczba:>{firstdigitInt}}',end="")
-                elif firstdigit and not param.isdigit():
+                elif firstdigit and not num.isnumeric():
                     firstdigitInt = int(firstdigit)
                     print(f'{param:>{firstdigitInt}}',end="")
                 else:
@@ -34,5 +36,6 @@ def my_printf(format_string,param):
     print("")
 
 data=sys.stdin.readlines()
+
 for i in range(0,len(data),2):
     my_printf(data[i].rstrip(),data[i+1].rstrip())
