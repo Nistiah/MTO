@@ -13,26 +13,19 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#':
                 result = re.search(REGEX, format_string[idx:])
-                if format_string[idx+1].isspace():
-            	    break
                 firstdigit = result.group(1)
-                dot = result.group(2)
-                seconddigit = result.group(3)
-                if not firstdigit and not seconddigit:
-                    print(param,end="")
-                elif firstdigit and seconddigit and dot:
+                if firstdigit and param.isdigit():
                     firstdigitInt = int(firstdigit)
-                    seconddigitInt = int(seconddigit)
-                    print(f'{param:>{firstdigitInt}.{seconddigitInt}}',end="")
-                elif firstdigit and not seconddigit and not dot:
+                    nowa_liczba = ""
+                    for cyfra in param:
+                        nowa_liczba += str(int(cyfra) - 1)
+                    print(f'{nowa_liczba:>{firstdigitInt}}', end="")
+                elif firstdigit and not param.isdigit():
                     firstdigitInt = int(firstdigit)
-                    print(f'{param:>{firstdigitInt}}',end="")
-                elif not firstdigit and seconddigit and dot:
-                    seconddigitInt = int(seconddigit)
-                    print(f'{param:.{seconddigitInt}}',end="")
+                    print(f'{param:>{firstdigitInt}}', end="")
                 else:
                     break
-                shouldDo=False
+                shouldDo = False
             else:
                 print(format_string[idx],end="")
         else:
