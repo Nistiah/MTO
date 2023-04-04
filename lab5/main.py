@@ -5,7 +5,7 @@ import sys
 import re
 
 def my_printf(format_string,param):
-    REGEX = r'#(\d+)?(\.)?(\d+)?k'
+    REGEX = r'#(\d+)?g'
     shouldDo=True
     param = param.swapcase()
     for idx in range(0,len(format_string)):
