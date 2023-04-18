@@ -13,6 +13,8 @@ def replace_digits(number):
         number //= 10
     return retNumber
 
+
+
 def my_printf(format_string,param):
     REGEX = r'#(\d+)?g'
     shouldDo=True
