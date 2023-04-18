@@ -9,7 +9,7 @@ def my_printf(format_string,param):
     param = str(replace(int(param)))
     if x:
         format = x.group()
-       	num = format[2:-1]
+        num = format[2:-1]
         if num.isnumeric():
             s = param.rjust(int(num), '0')
             x = re.sub("#\.\d+g", s, format_string)
