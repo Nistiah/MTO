@@ -1,0 +1,20 @@
+xxxx #4g xxxx
+1234
+xxxx#4g xxxx 1111
+4321
+xxxx #8g xxxx
+1000
+xxxx #g xxxx
+xxx
+xxxx #3g xxx xxx xx xx
+0
+xxxx #g xxxx
+123456
+xxxx  xxxx
+test
+xxxx #g xxxx
+1
+xxxx #g xxxx
+5
+xxxx
+xxx #g xxx
