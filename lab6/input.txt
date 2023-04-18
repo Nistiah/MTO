@@ -1,21 +1,18 @@
-xxxx #4.g xxxx
+xxxx #.4g xxxx
 1234
-xxxx#4.g xxxx 1111
+xxxx#.4g xxxx 1111
 4321
-xxxx #8.g xxxx
+xxxx #.8g xxxx
 1000
-xxxx #1.g xxxx
+xxxx #.1g xxxx
 1234
-xxxx #3.g xxx xxx xx xx
+xxxx #.3g xxx xxx xx xx
 0
-xxxx #1.g xxxx
+xxxx #.1g xxxx
 123456
-xxxx  xxxx
-1111
-xxxx #2.g xxxx
+xxxx #.2g xxxx
 1
-xxxx #3.g xxxx
+xxxx #.3g xxxx
 53
-xxxx
-xxx #8.g xxx
+xxx #.8g xxx
 0123
