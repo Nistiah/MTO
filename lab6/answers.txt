@@ -1,10 +1,9 @@
-xxxx 0123 xxxx
-xxxx3210 xxxx 1111
-xxxx     0999 xxxx
-xxxx 
-xxxx   9 xxx xxx xx xx
-xxxx 
-xxxx  xxxx
-xxxx 
-xxxx 
-xxxx
+xxxx 0987 xxxx
+xxxx7890 xxxx 1111
+xxxx 00000111 xxxx
+xxxx 987 xxxx
+xxxx 000 xxx xxx xx xx
+xxxx 98765 xxxx
+xxxx 00 xxxx
+xxxx 068 xxxx
+xxx 00000980 xxx
