@@ -6,7 +6,7 @@ import re
 
 def my_printf(format_string,param):
     x = re.search("#\.\d+g", format_string)
-    param = str(replace_digits(int(param)))
+    param = str(replace(int(param)))
     if x:
         format = x.group()
        	num = format[2:-1]
@@ -17,7 +17,7 @@ def my_printf(format_string,param):
             return
     print(format_string)
     
-def replace_digits(number):
+def replace(number):
     position = 1
     retNumber = 0
     while number > 0:
