@@ -11,8 +11,8 @@ xxxx #j xxx xxx xx xx
 xxxx #j xxxx
 123456
 xxxx #j xxxx
-1abcdef
+1
 xxxx #j xxxx
 53
 xxxx #j xxxx
-01231
+0123111
