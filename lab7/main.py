@@ -8,6 +8,8 @@ def my_printf(format_string,param):
     param = hex(int(param))
     param = param.replace("a","g")
     param = param.replace("b","h")
+    param = param.replace("c","i")
+    param = param.replace("d","j")
     x = re.sub("#j", param, format_string)
     print(x)
     
