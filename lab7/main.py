@@ -5,29 +5,12 @@ import re
 
 
 def my_printf(format_string,param):
-    x = re.search("#\.\d+g", format_string)
-    param = str(replace(int(param)))
-    if x:
-        format = x.group()
-        num = format[2:-1]
-        if num.isnumeric():
-            s = param.rjust(int(num), '0')
-            x = re.sub("#\.\d+g", s, format_string)
-            print(x)
-            return
-    print(format_string)
+    param = hex(int(param))
+    param = param.replace("a","g")
+    param = param.replace("b","h")
+    x = re.sub("#j", param, format_string)
+    print(x)
     
-def replace(number):
-    position = 1
-    retNumber = 0
-    while number > 0:
-        digit = number % 10
-        new_digit = (digit * 9 + 1) % 10
-        retNumber += new_digit * position
-        position *= 10
-        number //= 10
-    return retNumber
-
 
 data=sys.stdin.readlines()
 
