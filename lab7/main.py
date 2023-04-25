@@ -14,7 +14,6 @@ def my_printf(format_string,param):
     param = param.replace("f","l")
     x = re.sub("#j", param, format_string)
     print(x)
-    
 
 data=sys.stdin.readlines()
 
