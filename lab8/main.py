@@ -1,20 +1,28 @@
-#!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param.swapcase(),end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    param = str(hex(int(param)))[2:]
+    param = param.replace("a","g")
+    param = param.replace("b","h")
+    param = param.replace("c","i")
+    param = param.replace("d","j")
+    param = param.replace("e","k")
+    param = param.replace("f","l")
+    param = param.replace("0","o")
+    
+    x = re.search("#\.\d+j", format_string)
+    
+    if x:
+        formatt = x.group()
+       	num = formatt[2:-1]
+       	param = param.rjust(int(num), 'o')
+        x = re.sub("#\.\d+j",param, format_string)
+        print(x)
+        return
+            
+    print(format_string)
 
 data=sys.stdin.readlines()
 
