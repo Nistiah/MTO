@@ -64,7 +64,7 @@ endef
 	
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
-	$(call perform_test,bad,Bad)
+	$(call perform_test,ogolne,Ogolne)
 	$(call perform_test,krotkie,Krotkie)
 
 
@@ -75,7 +75,7 @@ generate:
 
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
-	$(call generate_answers,bad)
+	$(call generate_answers,ogolne)
 	$(call generate_answers,krotkie)
 
 
@@ -85,6 +85,6 @@ merge:
 	-rm ./input.txt 2>/dev/null
 	-rm ./answers.txt 2>/dev/null
 
-	$(call merge_test,bad)
+	$(call merge_test,ogolne)
 	$(call merge_test,krotkie)
 
