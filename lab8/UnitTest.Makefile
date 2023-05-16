@@ -66,7 +66,7 @@ endef
 	
 	$(call perform_test,ogolne,Ogolne)
 	$(call perform_test,krotkie,Krotkie)
-
+	$(call perform_test,mytests,MyTests)
 
 	$(call restore_data)
 
@@ -77,7 +77,7 @@ generate:
 	
 	$(call generate_answers,ogolne)
 	$(call generate_answers,krotkie)
-
+	$(call generate_answers,mytests)
 
 	$(call restore_data)
 
@@ -87,4 +87,4 @@ merge:
 
 	$(call merge_test,ogolne)
 	$(call merge_test,krotkie)
-
+	$(call merge_test,mytests)
