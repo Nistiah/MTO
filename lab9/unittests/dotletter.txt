@@ -1,0 +1,50 @@
+dotletter %.a dotletter
+test
+dotletter %.b dotletter
+test
+dotletter %.c dotletter
+test
+dotletter %.d dotletter
+test
+dotletter %.e dotletter
+test
+dotletter %.f dotletter
+test
+dotletter %.g dotletter
+test
+dotletter %.i dotletter
+test
+dotletter %.j dotletter
+test
+dotletter %.k dotletter
+test
+dotletter %.l dotletter
+test
+dotletter %.m dotletter
+test
+dotletter %.n dotletter
+test
+dotletter %.o dotletter
+test
+dotletter %.p dotletter
+test
+dotletter %.q dotletter
+test
+dotletter %.r dotletter
+test
+dotletter %.s dotletter
+test
+dotletter %.t dotletter
+test
+dotletter %.u dotletter
+test
+dotletter %.v dotletter
+test
+dotletter %.w dotletter
+test
+dotletter %.x dotletter
+test
+dotletter %.y dotletter
+test
+dotletter %.z dotletter
+test
