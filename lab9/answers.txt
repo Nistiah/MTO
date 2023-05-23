@@ -1,0 +1,10 @@
+short 123
+short oo12
+short oG
+short ol
+lll
+A
+short oo123
+short oooooooo12
+short G
+short 12
