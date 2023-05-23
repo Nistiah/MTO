@@ -28,9 +28,9 @@ float #.5h fdasdqw
 10345.1321
 floatsfafg#.6h float
 123.423
-float ggdgsghgfsffloat #.7h floatfloat #h float
+float ggdgsghgfsffloat #.7h float
 313.1123
-float 42312reqwfloat #.4h floatfloat #h float
+float 42312reqwfloat #.4h float
 0.141
 float #.3h float
 0.3124
@@ -50,9 +50,9 @@ float #.30h fdasdqw
 103452412232.13213123424523423
 float #.60h float
 123412412342134345314.4234124312431
-float float #.7h float float #h float
+float float #.7h float 
 313132141243254141.11234343123124124124
-float #.4h float float #h float
+float #.4h float 
 0.14112435141443533142145125142
 float #.3h float
 0.3124212435123153442355351
