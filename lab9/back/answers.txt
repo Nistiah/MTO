@@ -1,10 +1,119 @@
-totafsdfsf 22 fdsfsdf
-totafsd k7 fdsfsdf fdfjs
-jfldjfldk 36 wynik
-fjdfsfds 2g alal
-djfjkldsjf 2k jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds 22 jdlkfjdslf
-fjdslkfjdl 15g tttttt
-fjdlsjfkl 216 oooolll
-rwrewrew 2 fjdslkjfdl
-fjdlskjfldjflj 1l rewrewrew
+noparam #wh noparam
+noparam # noparam
+noparam # noparam
+noparam # h noparam
+noparam .#15 noparam
+noparam #22222 noparam
+noparam 15h noparam
+noparam #.h noparam
+noparam #.5555 noparam
+noparam #.h noparam
+small b.655 small
+small c.7 small
+small d.8 small
+small e.955555 small
+small f.05555 small
+small g.15 small
+small h.2 small
+small i.35 small
+small j.4 small
+small ba.5 small
+small bb.6 small
+small bc.6 small
+small bd.68 small
+small be.695 small
+small bf.6055 small
+small bg.61 small
+small bh.62555555 small
+small bi.63555555 small
+large gfbegie.107 large
+large ifcgcf.7 large
+large ibjfcjgcjbcf.5 large
+large ibjfcjgcjbcfbejifcgcj.0931555 large
+long gfbegie.1791943405555555555555555 long
+long ifcgcf.16394739439839494743055555555555555555555555555555555555555555555555555555555555555555555555555555555 long
+long ibjfcjgcjbcf.1791391391 long
+long ibjfcjgcjbcfbejifcgcj.5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 long
+differentLetters %a differentLetters
+differentLetters %b differentLetters
+differentLetters %c differentLetters
+differentLetters %d differentLetters
+differentLetters %e differentLetters
+differentLetters %f differentLetters
+differentLetters %g differentLetters
+differentLetters %i differentLetters
+differentLetters %j differentLetters
+differentLetters %k differentLetters
+differentLetters %l differentLetters
+differentLetters %m differentLetters
+differentLetters %n differentLetters
+differentLetters %o differentLetters
+differentLetters %p differentLetters
+differentLetters %q differentLetters
+differentLetters %r differentLetters
+differentLetters %s differentLetters
+differentLetters %t differentLetters
+differentLetters %u differentLetters
+differentLetters %v differentLetters
+differentLetters %w differentLetters
+differentLetters %x differentLetters
+differentLetters %y differentLetters
+differentLetters %z differentLetters
+float #j float
+float #f float
+float #t float
+floatsfafg#r float
+float #x float float #e float
+float #y float float #y float
+float 2eqwe#dasd4
+tsad#jjasdsageqw
+tsad#b dasfgdfloat
+float #mdasfgfloat
+float #jh gdfs5y45t
+float ba.7689 float
+float ba.768 float
+float badef.68765 fdasdqw
+floatsfafgbcd.978555 float
+float ggdgsghgfsffloat dbd.6678555 float
+float 42312reqwfloat a.6965 float
+float a.867 float
+float b.798655 float
+float ba.586655 float
+float ba.56755 float
+float bc.6768555h float
+float ba.7689555555 float
+float ba.76895555555555555555 float
+float badefcebccdc.687686789790789785555555555555 fdasdqw
+float bcdebcebcdecbdedefdbe.978967986798655555555555555555555555555555555555555555555555 float
+float float dbdbdcbebcedcfebeb.6678989 float
+float a.6966 float
+float a.867 float
+float bbcedcffcdffe.7986967967969086555555555555555555555555555555555555555555555555555555 float
+float ba.5866555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 float
+float babecdfbebedbfdb.56796 float
+float bcgedgfcdefccdf.6768968 float
+dotletter %.a dotletter
+dotletter %.b dotletter
+dotletter %.c dotletter
+dotletter %.d dotletter
+dotletter %.e dotletter
+dotletter %.f dotletter
+dotletter %.g dotletter
+dotletter %.i dotletter
+dotletter %.j dotletter
+dotletter %.k dotletter
+dotletter %.l dotletter
+dotletter %.m dotletter
+dotletter %.n dotletter
+dotletter %.o dotletter
+dotletter %.p dotletter
+dotletter %.q dotletter
+dotletter %.r dotletter
+dotletter %.s dotletter
+dotletter %.t dotletter
+dotletter %.u dotletter
+dotletter %.v dotletter
+dotletter %.w dotletter
+dotletter %.x dotletter
+dotletter %.y dotletter
+dotletter %.z dotletter
