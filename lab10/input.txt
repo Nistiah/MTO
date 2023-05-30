@@ -1,238 +1,158 @@
 noparam #wh noparam
-1.1
+11
 noparam # noparam
-2.2
+22
 noparam # noparam
-3.3
+33
 noparam # h noparam
-4.4
-noparam .#15 noparam
-5.5
+44
+noparam #15 noparam
+55
 noparam #22222 noparam
-6.6
+66
 noparam 15h noparam
-7.7
-noparam #.h noparam
-8.8
-noparam #.5555 noparam
-9.9
-noparam #.h noparam
-10.01
-small #.3h small
-1.1
-small #.1h small
-2.2
-small #.1h small
-3.3
-small #.6h small
-4.4
-small #.5h small
-5.5
-small #.2h small
-6.6
-small #.1h small
-7.7
-small #.2h small
-8.8
-small #.1h small
-9.9
-small #.1h small
-10.01
-small #.1h small
-11.11
-small #.1h small
-12.12
-small #.2h small
-13.13
-small #.3h small
-14.14
-small #.4h small
-15.15
-small #.2h small
-16.16
-small #.8h small
-17.17
-small #.8h small
-18.18
-large #.3h large
-6514684.6519865284
-large #.1h large
-852625.1561987
-large #.1h large
-819529629125.0
-large #.7h large
-819529629125149852629.5486
-long #.25h long
-6514684.624649895
-long #.101h long
-852625.618492849843849492985
-long #.10h long
-819529629125.624684684638468244868934898249
-long #.100h long
-819529629125149852629.0
-differentLetters %a differentLetters
+77
+noparam #h noparam
+88
+noparam #5555 noparam
+99
+noparam #h noparam
+1001
+small #a small
+11
+small #a small
+22
+small #a small
+33
+small #a small
+44
+small #a small
+55
+small #a small
+66
+small #a small
+77
+small #a small
+88
+small #a small
+99
+small #a small
+1001
+small #a small
+1111
+small #a small
+1212
+small #a small
+1313
+small #a small
+1414
+small #a small
+1515
+small #a small
+1616
+small #a small
+1717
+small #a small
+1818
+large #a large
+65146846519865284
+large #a large
+8526251561987
+large #a large
+8195296291250
+large #a large
+8195296291251498526295486
+long #a long
+6514684624649895
+long #a long
+852625618492849843849492985
+long #a long
+819529629125624684684638468244868934898249
+long #a long
+819529621251498526290
+differentLetters #b differentLetters
 test
-differentLetters %b differentLetters
+differentLetters #c differentLetters
 test
-differentLetters %c differentLetters
+differentLetters #d differentLetters
 test
-differentLetters %d differentLetters
+differentLetters #e differentLetters
 test
-differentLetters %e differentLetters
+differentLetters #f differentLetters
 test
-differentLetters %f differentLetters
+differentLetters #g differentLetters
 test
-differentLetters %g differentLetters
+differentLetters #i differentLetters
 test
-differentLetters %i differentLetters
+differentLetters #j differentLetters
 test
-differentLetters %j differentLetters
+differentLetters #k differentLetters
 test
-differentLetters %k differentLetters
+differentLetters #l differentLetters
 test
-differentLetters %l differentLetters
+differentLetters #m differentLetters
 test
-differentLetters %m differentLetters
+differentLetters #n differentLetters
 test
-differentLetters %n differentLetters
+differentLetters #o differentLetters
 test
-differentLetters %o differentLetters
+differentLetters #p differentLetters
 test
-differentLetters %p differentLetters
+differentLetters #q differentLetters
 test
-differentLetters %q differentLetters
+differentLetters #r differentLetters
 test
-differentLetters %r differentLetters
+differentLetters #s differentLetters
 test
-differentLetters %s differentLetters
+differentLetters #t differentLetters
 test
-differentLetters %t differentLetters
+differentLetters #u differentLetters
 test
-differentLetters %u differentLetters
+differentLetters #v differentLetters
 test
-differentLetters %v differentLetters
+differentLetters #w differentLetters
 test
-differentLetters %w differentLetters
+differentLetters #x differentLetters
 test
-differentLetters %x differentLetters
+differentLetters #y differentLetters
 test
-differentLetters %y differentLetters
+differentLetters #z differentLetters
 test
-differentLetters %z differentLetters
-test
-float #j float
-10.213
-float #f float
-10.213
-float #t float
-1034295.1
-floatsfafg#r float
-123124.423
-float #x float float #e float
-313.1
-float #y float float #y float
-0.1
-float 2eqwe#dasd4
-0.312432
-tsad#jjasdsageqw
-1.243141
-tsad#b dasfgdfloat
-10.0312431
-float #mdasfgfloat
-10.0
-float #jh gdfs5y45t
-12.1213
-float #.4h float
-10.2134
-float #.3h float
-10.2134
-float #.5h fdasdqw
-10345.1321
-floatsfafg#.6h float
-123.423
-float ggdgsghgfsffloat #.7h float
-313.1123
-float 42312reqwfloat #.4h float
-0.141
-float #.3h float
-0.3124
-float #.6h float
-1.2431
-float #.6h float
-10.0311
-float #.5h float
-10.012
-float #.7hh float
-12.1213
-float #.10h float
-10.2134
-float #.20h float
-10.2134
-float #.30h fdasdqw
-103452412232.13213123424523423
-float #.60h float
-123412412342134345314.4234124312431
-float float #.7h float 
-313132141243254141.11234343123124124124
-float #.4h float 
-0.14112435141443533142145125142
-float #.3h float
-0.3124212435123153442355351
-float #.70h float
-1124325523554.2431412412414531
-float #.100h float
-10.0311
-float #.5h float
-1014235141431531.0124134621243524
-float #.7h float
-126436523452235.12134134312415325235
-dotletter %.a dotletter
-test
-dotletter %.b dotletter
-test
-dotletter %.c dotletter
-test
-dotletter %.d dotletter
-test
-dotletter %.e dotletter
-test
-dotletter %.f dotletter
-test
-dotletter %.g dotletter
-test
-dotletter %.i dotletter
-test
-dotletter %.j dotletter
-test
-dotletter %.k dotletter
-test
-dotletter %.l dotletter
-test
-dotletter %.m dotletter
-test
-dotletter %.n dotletter
-test
-dotletter %.o dotletter
-test
-dotletter %.p dotletter
-test
-dotletter %.q dotletter
-test
-dotletter %.r dotletter
-test
-dotletter %.s dotletter
-test
-dotletter %.t dotletter
-test
-dotletter %.u dotletter
-test
-dotletter %.v dotletter
-test
-dotletter %.w dotletter
-test
-dotletter %.x dotletter
-test
-dotletter %.y dotletter
-test
-dotletter %.z dotletter
-test
+negative #a negative
+-11
+negative #a negative
+-22
+negative #a negative
+-33
+negative #a negative
+-44
+negative #a negative
+-55
+negative #a negative
+-66
+negative #a negative
+-77
+negative #a negative
+-88
+negative #a negative
+-99
+negative #a negative
+-1001
+negative #a negative
+-1111
+negative #a negative
+-1212
+negative #a negative
+-1313
+negative #a negative
+-1414
+negative #a negative
+-1515
+negative #a negative
+-1616
+negative #a negative
+-1717
+negative #a negative
+-1818
+negative #a negative
+-133
