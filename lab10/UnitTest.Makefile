@@ -69,8 +69,7 @@ endef
 	$(call perform_test,large,Large)
 	$(call perform_test,long,Long)
 	$(call perform_test,differentLetters,DifferentLetters)
-	$(call perform_test,dotletter,"dots and letters")
-	$(call perform_test,float,Float)
+	$(call perform_test,negative,Negative)
 
 	$(call restore_data)
 
@@ -84,8 +83,7 @@ generate:
 	$(call generate_answers,large)
 	$(call generate_answers,long)
 	$(call generate_answers,differentLetters)
-	$(call generate_answers,dotletter)
-	$(call generate_answers,float)
+	$(call generate_answers,negative)
 	
 
 	$(call restore_data)
@@ -99,5 +97,5 @@ merge:
 	$(call merge_test,large)
 	$(call merge_test,long)
 	$(call merge_test,differentLetters)
-	$(call merge_test,float)
-	$(call merge_test,dotletter)
+	$(call merge_test,negative)
+
