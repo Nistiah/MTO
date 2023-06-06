@@ -1,5 +1,3 @@
-differentLetters #b differentLetters
-test
 differentLetters #c differentLetters
 test
 differentLetters #d differentLetters
