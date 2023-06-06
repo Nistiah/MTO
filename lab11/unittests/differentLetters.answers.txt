@@ -1,4 +1,3 @@
-differentLetters #b differentLetters
 differentLetters #c differentLetters
 differentLetters #d differentLetters
 differentLetters #e differentLetters
